@@ -2,7 +2,7 @@
 //  TodoApp.swift
 //  Todo
 //
-//  Created by Mohammad Azam on 10/24/23.
+//  Created by Mayank Negi on 10/24/23.
 //
 
 import SwiftUI
