@@ -2,7 +2,7 @@
 //  CoreDataProvider.swift
 //  BudgetApp
 //
-//  Created by Mohammad Azam on 11/8/23.
+//  Created by Mayank Negi on 11/8/23.
 //
 
 import Foundation

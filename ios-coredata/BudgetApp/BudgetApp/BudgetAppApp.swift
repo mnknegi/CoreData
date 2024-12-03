@@ -2,7 +2,7 @@
 //  BudgetAppApp.swift
 //  BudgetApp
 //
-//  Created by Mohammad Azam on 11/8/23.
+//  Created by Mayank Negi on 11/8/23.
 //
 
 import SwiftUI
@@ -18,7 +18,7 @@ struct BudgetAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BudgetListScreen()
                 .environment(\.managedObjectContext, provider.context)
         }
     }

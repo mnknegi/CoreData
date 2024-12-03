@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B37FBA2CFF4FDA0063D50A /* BudgetAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85B37FB82CFF4FDA0063D50A /* BudgetAppModel.xcdatamodeld */; };
+		85B37FBD2CFF50780063D50A /* BudgetListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B37FBC2CFF50780063D50A /* BudgetListScreen.swift */; };
+		85B37FBF2CFF51870063D50A /* AddBudgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B37FBE2CFF51870063D50A /* AddBudgetScreen.swift */; };
 		8DEA1BB32AFC149600EEA305 /* BudgetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA1BB22AFC149600EEA305 /* BudgetAppApp.swift */; };
-		8DEA1BB52AFC149600EEA305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA1BB42AFC149600EEA305 /* ContentView.swift */; };
 		8DEA1BB72AFC149700EEA305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA1BB62AFC149700EEA305 /* Assets.xcassets */; };
 		8DEA1BBA2AFC149700EEA305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA1BB92AFC149700EEA305 /* Preview Assets.xcassets */; };
 		8DEA1BC22AFC15CC00EEA305 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA1BC12AFC15CC00EEA305 /* CoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85B37FB92CFF4FDA0063D50A /* BudgetAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BudgetAppModel.xcdatamodel; sourceTree = "<group>"; };
+		85B37FBC2CFF50780063D50A /* BudgetListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListScreen.swift; sourceTree = "<group>"; };
+		85B37FBE2CFF51870063D50A /* AddBudgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetScreen.swift; sourceTree = "<group>"; };
 		8DEA1BAF2AFC149600EEA305 /* BudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEA1BB22AFC149600EEA305 /* BudgetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetAppApp.swift; sourceTree = "<group>"; };
-		8DEA1BB42AFC149600EEA305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DEA1BB62AFC149700EEA305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DEA1BB92AFC149700EEA305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DEA1BC12AFC15CC00EEA305 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B37FBB2CFF505F0063D50A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				85B37FBC2CFF50780063D50A /* BudgetListScreen.swift */,
+				85B37FBE2CFF51870063D50A /* AddBudgetScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		8DEA1BA62AFC149600EEA305 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +66,10 @@
 		8DEA1BB12AFC149600EEA305 /* BudgetApp */ = {
 			isa = PBXGroup;
 			children = (
+				85B37FBB2CFF505F0063D50A /* Screens */,
 				8DEA1BC02AFC15BF00EEA305 /* Providers */,
 				8DEA1BB22AFC149600EEA305 /* BudgetAppApp.swift */,
-				8DEA1BB42AFC149600EEA305 /* ContentView.swift */,
+				85B37FB82CFF4FDA0063D50A /* BudgetAppModel.xcdatamodeld */,
 				8DEA1BB62AFC149700EEA305 /* Assets.xcassets */,
 				8DEA1BB82AFC149700EEA305 /* Preview Content */,
 			);
@@ -148,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DEA1BB52AFC149600EEA305 /* ContentView.swift in Sources */,
+				85B37FBF2CFF51870063D50A /* AddBudgetScreen.swift in Sources */,
+				85B37FBD2CFF50780063D50A /* BudgetListScreen.swift in Sources */,
+				85B37FBA2CFF4FDA0063D50A /* BudgetAppModel.xcdatamodeld in Sources */,
 				8DEA1BB32AFC149600EEA305 /* BudgetAppApp.swift in Sources */,
 				8DEA1BC22AFC15CC00EEA305 /* CoreDataProvider.swift in Sources */,
 			);
@@ -356,6 +372,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85B37FB82CFF4FDA0063D50A /* BudgetAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85B37FB92CFF4FDA0063D50A /* BudgetAppModel.xcdatamodel */,
+			);
+			currentVersion = 85B37FB92CFF4FDA0063D50A /* BudgetAppModel.xcdatamodel */;
+			path = BudgetAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DEA1BA72AFC149600EEA305 /* Project object */;
 }
