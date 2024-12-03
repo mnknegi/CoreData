@@ -20,9 +20,10 @@ final class CoreDataProvider {
         let provider = CoreDataProvider(inMemory: true)
         let viewContext = provider.viewContext
 
-        for index in 0...10 {
+        for index in 1...10 {
             let todoItem = TodoItem(context: viewContext)
             todoItem.title = "TodoItem \(index)"
+            todoItem.isCompleted = index % 2 == 0 ? true : false
         }
 
         do {
